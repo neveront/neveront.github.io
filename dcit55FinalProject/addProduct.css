@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* html, body {
+    width: 100%;
+    height: 100%;
+} */
+.inputContainer{
+    padding: 50px;
+    background-color: #634832;
+
+}
+
+.ingridientsContainer{
+    padding: 50px;
+    background-color: #967259;
+
+
+}
+
+.finalButtonsContainer{
+    padding: 50px;
+    background-color: #634832;
+
+}
+#prodPrice{
+    width:100%;
+}
+.input{
+    padding: 5%;
+    background-color: #dbc1ac;
+    /* border: 1px solid #ccc; */
+    display: block;
+    margin: 0 auto; /* Horizontally center */
+    width: 50%; /* Adjust as needed */
+    /* text-align: center; Optional: Center text inside */
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+}
+
+.ingridients{
+    padding: 5%;
+    background-color: #dbc1ac;
+    /* border: 1px solid #ccc; */
+    display: block;
+    margin: 0 auto; /* Horizontally center */
+    width: 50%; /* Adjust as needed */
+    /* text-align: center; Optional: Center text inside */
+}
+
+.finalButtons{
+    padding: 5%;
+    background-color: #dbc1ac;
+    /* border: 1px solid #ccc; */
+    display: block;
+    margin: 0 auto; /* Horizontally center */
+    width: 50%;
+    /* text-align: center; Optional: Center text inside */
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    flex-direction: row; /* Stack elements vertically */
+}
+
+#photo{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+#logo{
+    height: 10vw;
+    width: 10vw;
+}
+
+label, h2{
+    font-size: 3vw;
+    color: #38220f;
+}
+
+input{
+    font-size: 3vw;
+}
+
+.input-contents{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.button{
+    margin:5%;
+    padding:5%;
+    color: beige;
+    background-color: #38220f;
+}
+
+.custom-file-input {
+    display: none;
+
+}
+.custom-file-label {
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    background-color: #38220f;
+    color: #fff;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.file-name {
+    display: inline-block;
+    margin-left: 10px;
+}
+a{
+    font-size: 3vw;
+    vertical-align: center;
+}
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #38220f;
+    color: white;
+    display: flex;
+    /* justify-content: space-around; */
+    padding: 1rem;
+    z-index: 1000;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+}
+.navbar a:hover {
+    background-color: #575757;
+}
